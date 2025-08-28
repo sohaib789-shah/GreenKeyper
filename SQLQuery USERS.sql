@@ -1,0 +1,8 @@
+SELECT TOP (1000) [id]
+      ,[name]
+      ,[email]
+      ,[password_hash]
+      ,[role]
+      ,[is_active]
+      ,[created_at]
+  FROM [GreenkeyperDB].[dbo].[Users]

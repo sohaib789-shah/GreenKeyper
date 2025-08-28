@@ -1,0 +1,7 @@
+SELECT TOP (1000) [id]
+      ,[plate_number]
+      ,[make]
+      ,[model]
+      ,[year]
+      ,[is_active]
+  FROM [GreenkeyperDB].[dbo].[Vehicles]

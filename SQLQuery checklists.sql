@@ -1,0 +1,6 @@
+SELECT TOP (1000) [id]
+      ,[type]
+      ,[title]
+      ,[created_by]
+      ,[is_active]
+  FROM [GreenkeyperDB].[dbo].[Checklists]
