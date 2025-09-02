@@ -15,9 +15,9 @@ app.use(express.json());
 
 // Routes
 app.use("/api/auth", authRoutes);
-app.use("/api/vehicle", vehicleRoutes);
-app.use("/api/checklist", ChecklistRoutes);
-app.use("/api/user", UserRoutes);
+app.use("/vehicles", vehicleRoutes);
+app.use("/checklists", ChecklistRoutes);
+app.use("/users", UserRoutes);
 
 
 // Root endpoint
@@ -39,3 +39,4 @@ const startServer = async () => {
 };
 
 startServer();
+
